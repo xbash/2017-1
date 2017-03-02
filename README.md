@@ -84,7 +84,7 @@ Habrá 2 interrogaciones y un examen, donde se evaluarán los aspectos más teó
 
 ### Tareas
 
-Habrá _(4-5)_ tareas de programación en C, donde deberán resolver un problema complejo y analizarlo en un informe escrito. Las fechas serán anunciadas durante el semestre.
+Habrá 5 tareas de programación en C, donde deberán resolver un problema complejo y analizarlo en un informe escrito. Las fechas serán anunciadas durante el semestre.
 
 ---
 
@@ -97,21 +97,21 @@ double nota_final()
     /* La nota de cada tarea */
     double T0,T1,T2,T3,T4;
     /* La nota de cada interrogación */
-    double I1,I2,Ex;
+    double I1,I2,I3,Ex;
 
     /* Promedio de tareas */
     double NT = (T0 + T1 + T2 + T3 + T4) / 5;
     /* Promedio de las interrogaciones */
     double NE = (I1 + I2 + I3 + 2*Ex - min(I1,I2,I3,Ex)) / 4;
 
-    /* Es necesario aprobar las pruebas por separado para aprobar el curso */
-    if(NE < 4)
+    /* Es necesario aprobar ambas cosas por separado para aprobar el curso */
+    if(NE < 3.95 || NT < 3.95)
     {
-       return NE;
+       return min(NE,NT);
     }
     else
     {
-       return (NE + NT) / 2;
+       return 0.8 * NE + 0.2 * NT;
     }
 }
 
