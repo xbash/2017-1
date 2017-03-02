@@ -102,7 +102,7 @@ double nota_final()
     /* Promedio de tareas */
     double NT = (T0 + T1 + T2 + T3 + T4) / 5;
     /* Promedio de las interrogaciones */
-    double NE = (I1 + I2 + 2 * Ex) / 4;
+    double NE = (I1 + I2 + I3 + 2*Ex - min(I1,I2,I3)) / 4;
 
     /* Es necesario aprobar las pruebas por separado para aprobar el curso */
     if(NE < 4)
