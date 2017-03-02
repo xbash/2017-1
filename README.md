@@ -76,7 +76,11 @@ Habrá 2 interrogaciones y un examen, donde se evaluarán los aspectos más teó
 
 | Evaluación | Fecha |
 |:----------|:----------|
-| - | - |
+| I1 | 20 Abril |
+| I2 | 15 Mayo |
+| I3 | 13 Junio |
+| Ex | 4 Julio |
+
 
 ### Tareas
 
