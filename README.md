@@ -38,6 +38,10 @@ El curso utiliza el lenguaje de programación C, ya que éste permite trabajar d
 | Vicente Errázuriz Quiroga | [@Ghoeb](https://www.github.com/Ghoeb) |
 | Antonio López Larraechea | [@alopez7](https://www.github.com/alopez7) |
 | Rodrigo Gómez Araya | [@rkoco](https://www.github.com/rkoco) |
+| Andrés Ríos Stange | [@Arios16](https://github.com/Arios16) |
+| Oscar Ríos Stange | [@orrios](https://github.com/orrios) |
+| Antonia Mendoza Muñoz | [@AntoniaMendoza](https://github.com/AntoniaMendoza) |
+| María José Hidalgo Vera | [@cotehidalgov](https://github.com/cotehidalgov) |
 
 
 ## Contenidos
@@ -101,7 +105,7 @@ double nota_final()
 
     /* Promedio de tareas */
     double NT = (T0 + T1 + T2 + T3 + T4) / 5;
-    /* Promedio de las interrogaciones */
+    /* Promedio de las evaluaciones escritas */
     double NE = (I1 + I2 + I3 + 2*Ex - min(I1,I2,I3,Ex)) / 4;
 
     /* Es necesario aprobar ambas cosas por separado para aprobar el curso */
