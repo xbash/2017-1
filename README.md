@@ -28,7 +28,7 @@ El curso utiliza el lenguaje de programación C, ya que éste permite trabajar d
 
 | Nombre               |  Email         |
 |:-------------------- |:--------------|
-| Jorge Baier | jabaier@uc.cl |
+| Jorge Baier Aranda | jabaier@uc.cl |
 
 
 ### Ayudantes
