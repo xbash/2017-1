@@ -1,0 +1,12 @@
+Test  #1: ./filter test_imgs/test0.png test_filters/blur.txt out.png
+Test  #2: ./filter test_imgs/test0.png test_filters/cool2.txt out.png
+Test  #3: ./filter test_imgs/test0.png test_filters/cool.txt out.png
+Test  #4: ./filter test_imgs/test0.png test_filters/double.txt out.png
+Test  #5: ./filter test_imgs/test1.png test_filters/blur.txt out.png
+Test  #6: ./filter test_imgs/test1.png test_filters/cool2.txt out.png
+Test  #7: ./filter test_imgs/test1.png test_filters/cool.txt out.png
+Test  #8: ./filter test_imgs/test1.png test_filters/double.txt out.png
+Test  #9: ./filter test_imgs/test2.png test_filters/blur.txt out.png
+Test #10: ./filter test_imgs/test2.png test_filters/cool2.txt out.png
+Test #11: ./filter test_imgs/test2.png test_filters/cool.txt out.png
+Test #12: ./filter test_imgs/test2.png test_filters/double.txt out.png
